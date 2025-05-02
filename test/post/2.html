@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/footer.css"> 
+    <style>
+    /* 参考网页[7]的商品详情页布局 */
+    .detail-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: #f8f9fa;
+        border-radius: 12px;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
+
+    .back-btn {
+        /* 网页[10][11]返回按钮样式优化 */
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        padding: 10px 25px;
+        background: linear-gradient(135deg, #6B48FF, #00A3FF);
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(107,72,255,0.2);
+        transition: all 0.3s ease;
+    }
+
+    .back-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(107,72,255,0.3);
+    }
+
+    .content-section {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        margin-top: 2rem;
+    }
+    </style>
+</head>
+<body>
+    <button class="back-btn" onclick="history.back()">← 返回通知列表</button>
+    
+    <div class="detail-container">
+        <h1>🚀 日语已上线 英语预备中！</h1>
+        <div class="content-section">
+            <p>发布日期：2025-05-01</p>
+            <!-- 详细内容 -->
+            <h3>我们已经在今天加快马鞭完成日语、中文网站的建设，英语预计在五一假期结束前完成</h3>
+            <h3>我们的美化主要跟进简约时尚  本版本将为ZS-I1.0.0版本更新！</h3>
+            
+    </div>
+    <!-- 在<body>标签闭合前插入以下代码 -->
+<footer class="social-footer">
+    <div class="social-container">
+        <!-- 抖音Logo -->
+        <a href="https://douyin.com/user/MS4wLjABAAAALKuPt4hRmh83sLcVi_m4ejaGhxxc8easa1msi9LTZ1o" target="_blank" class="douyin-logo">
+            <svg viewBox="0 0 48 48" class="brand-icon">
+                <!-- 故障艺术风格音符图标 -->
+                <path fill="#FF004F" d="M24 6C14.06 6 6 14.06 6 24s8.06 18 18 18 18-8.06 18-18S33.94 6 24 6zm-2.76 27c-1.38 0-2.52-1.14-2.52-2.52V19.5h-3v10.98c0 3.06 2.46 5.52 5.52 5.52h3.48V27h-3.48z"/>
+                <path fill="#00F2EA" d="M30.24 30h3.48V19.5h-3.48V30zm-3.48-10.5h3.48v3h-3.48v-3z"/>
+            </svg>
+            <span class="tooltip">关注抖音官方账号</span>
+        </a>
+
+        <!-- Instagram Logo -->
+        <a href="https://instagram.com/zhangshao_zsw" target="_blank" class="instagram-logo">
+            <svg viewBox="0 0 24 24" class="brand-icon">
+                <!-- 渐变背景相机图标 -->
+                <linearGradient id="ig-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FD5"/>
+                    <stop offset="30%" stop-color="#FF543E"/>
+                    <stop offset="55%" stop-color="#C837AB"/>
+                    <stop offset="100%" stop-color="#8A3AC8"/>
+                </linearGradient>
+                <path fill="url(#ig-gradient)" d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.555.556.9 1.112 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428-.254.66-.598 1.216-1.153 1.772-.556.555-1.112.9-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465-.66-.254-1.216-.598-1.772-1.153-.555-.556-.9-1.112-1.153-1.772-.247-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428.254-.66.598-1.216 1.153-1.772.556-.555 1.112-.9 1.772-1.153.637-.247 1.363-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5c-2.72 0-5 2.28-5 5 0 2.72 2.28 5 5 5 2.72 0 5-2.28 5-5 0-2.72-2.28-5-5-5z"/>
+            </svg>
+            <span class="tooltip">Instagram主页</span>
+        </a>
+
+        <!-- X (Twitter) Logo -->
+        <a href="https://x.com/zhangshao_zsw" target="_blank" class="x-logo">
+            <svg viewBox="0 0 24 24" class="brand-icon">
+                <!-- 极简X形图标 -->
+                <path fill="#000" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.25 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+            <span class="tooltip">关注X最新动态</span>
+        </a>
+    </div>
+</footer>
+
+<style>
+/* 基础样式 */
+.social-footer {
+    background: #f8f9fa;
+    padding: 2rem 0;
+    border-top: 1px solid #e9ecef;
+    margin-top: 3rem;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 图标容器 */
+.brand-icon {
+    width: 42px;
+    height: 42px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 抖音特效 */
+.douyin-logo:hover .brand-icon {
+    filter: drop-shadow(0 0 4px rgba(255,0,79,0.4));
+    animation: glitch 0.3s infinite;
+}
+
+/* Instagram渐变交互 */
+.instagram-logo:hover .brand-icon {
+    transform: scale(1.1) rotate(15deg);
+}
+
+/* X动态效果 */
+.x-logo:hover .brand-icon {
+    transform: rotate(180deg) scale(1.2);
+}
+
+/* 悬浮提示 */
+.tooltip {
+    visibility: hidden;
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+a:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* 故障艺术动画 */
+@keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .social-container {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    .brand-icon {
+        width: 36px;
+        height: 36px;
+    }
+}
+</style>
+</body>
+</html>
