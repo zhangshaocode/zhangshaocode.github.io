@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ZS Studio</title>
+    <style>
+    @keyframes splash {
+        0% { transform: scale(0.5) rotate(0deg); opacity: 0; }
+        50% { transform: scale(1.2) rotate(180deg); opacity: 1; }
+        100% { transform: scale(1) rotate(360deg); opacity: 0; }
+    }
+    .splash-screen {
+        animation: splash 2s ease-in-out;
+        font-size: 3em;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #2c3e50;
+        font-family: Arial, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <div class="splash-screen">Powered by ZS</div>
+    <script>
+        setTimeout(() => { window.location.href = 'index2.html'; }, 2000);
+    </script>
+</body>
+</html>
